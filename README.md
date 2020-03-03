@@ -4,6 +4,7 @@ A place to record and collaborate on the NodeMCU (LUA) development environment f
 I am relatively inexperienced in this space.  I do, however, have 2 ESP8266's performing "useful" tasks in my home
 1. controls/maintains freezer temperature in a side-by-side refrigerator that is located in an unheated garage.  This control is accomplished by 2 DHT sensors (ambient, freezer) and an auxillary heater located in the refrigerator compartment (yes, you read correctly) under ESP control.
 2. monitor 5 zone heating system (zone history, setback history, correlation between burner history and actual natural gas consumption)
+
 Both deployments
 - use an RPi syslog feature for "permanent" storage of activity
 - reside on breadboards
