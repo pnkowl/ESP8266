@@ -45,9 +45,7 @@ Upon Request
 Module Details
 
 ESP8266_1 (no LFS)
-
 NodeMCU version 0.9
-
 ...cu-build.com provided by frightanic.com
         branch: master
         commit: 310faf7fcc9130a296f7f17021d48c6d717f5fb6
