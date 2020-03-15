@@ -45,7 +45,9 @@ Upon Request
 Module Details
 
 ESP8266_1 (no LFS)
+
 NodeMCU version 0.9
+
 ...cu-build.com provided by frightanic.com
         branch: master
         commit: 310faf7fcc9130a296f7f17021d48c6d717f5fb6
@@ -95,4 +97,3 @@ WeMos D1 mini
         LFS: 0x0
         modules: adc,bit,cron,dht,file,gpio,http,mqtt,net,node,ow,pwm2,rtcmem,rtctime,sntp,struct,tmr,uart,wifi
  build 2020-01-04 20:32 powered by Lua 5.1.4 on SDK 3.0.1-dev(fce080e)
-
