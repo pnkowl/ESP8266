@@ -95,3 +95,4 @@ WeMos D1 mini
         LFS: 0x0
         modules: adc,bit,cron,dht,file,gpio,http,mqtt,net,node,ow,pwm2,rtcmem,rtctime,sntp,struct,tmr,uart,wifi
  build 2020-01-04 20:32 powered by Lua 5.1.4 on SDK 3.0.1-dev(fce080e)
+
