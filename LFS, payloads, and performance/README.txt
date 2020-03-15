@@ -18,21 +18,22 @@ Investigation
 1. Create _payload2.lua (and _payload2_input.lua) to test with various payloads and ESP modules
 2. Problem occurs when find searches to the end of payload (does not fulfill the 5 variable request).  
 3. The larger the payload, the greater the chance of a panic. 
-4. Test ESP8266s with and without LFS and before dofile("_init.lua") (see _payload2_figure_1.png for raw results plot)
+4. Test ESP8266s with and without LFS and always before dofile("_init.lua") (see _payload2_figure_1.png for raw results plot)
 5. Results show that there is a 5.5x speed penalty for LFS (see _payload2_figure_2.png)
+6. Results were consistent across different ESP8266 modules.  2 ESP8266 modules selected for LFS were of different vintages as were the 2 ESP8266s for normal mode (no LFS)
 
 ---
 Questions
 
 1. Does this imply that firmware functions are executed differently when LFS is opitonally added?
-2. Is there a way to load time critical functions in a different manner?
+2. Is there a way to selectively load/run time critical functions in a different manner?
 
 ---
 Other Details
 
-1. use online firmware build site
+1. online firmware build site
    https://nodemcu-build.com/
-2. use online luac.cross build site
+2. online luac.cross build site
    https://blog.ellisons.org.uk/article/nodemcu/a-lua-cross-compile-web-service/
    
 ---
