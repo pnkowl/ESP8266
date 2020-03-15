@@ -25,7 +25,7 @@ Investigation
 Questions
 
 1. Does this imply that firmware functions are executed differently when LFS is opitonally added?
-2. Is there a way to temporarily load time critical functions into memory?
+2. Is there a way to load time critical functions in a different manner?
 
 ---
 Other Details
